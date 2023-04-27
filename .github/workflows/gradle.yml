@@ -13,8 +13,8 @@ jobs:
           cache: gradle
       - name: Build
         run: ./gradlew build
-      - name: Publish artifacts
-        - uses: actions/upload-artifact@v3
+      - name: Publish Artifacts
+        uses: actions/upload-artifact@v3
         with:
           name: monkas-addon
           path: ./build/libs/*.jar

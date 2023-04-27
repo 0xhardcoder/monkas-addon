@@ -12,7 +12,7 @@ jobs:
           distribution: adopt
       - name: Build
         run: ./gradlew build
-      - name: Upload artifacts
+      - name: Publish Artifacts
         uses: actions/upload-artifact@v2.2.4
         with:
           name: build-artifacts
