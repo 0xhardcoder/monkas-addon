@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "addon-monkas",
   "version": "${version}",
-  "name": "Addon Template",
+  "name": "MonkaS Addon",
   "description": "A MonkaS addon for the Meteor client.",
   "authors": [
     "M0nsterRED"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/0xhardcoder/monkas-addon"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
@@ -18,7 +18,7 @@
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "monkas-addon.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
