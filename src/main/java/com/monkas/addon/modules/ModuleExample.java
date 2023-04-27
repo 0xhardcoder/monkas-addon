@@ -1,6 +1,6 @@
-package com.example.addon.modules;
+package com.monkas.addon.modules;
 
-import com.example.addon.Addon;
+import com.monkas.addon.Addon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class ModuleExample extends Module {
