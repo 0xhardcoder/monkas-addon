@@ -14,7 +14,7 @@ jobs:
       - name: Build
         run: ./gradlew build
       - name: Rename Artifacts
-        run: mv *.jar monkas-addon.jar
+        run: mv ./build/libs/*.jar ./build/libs/monkas-addon.jar
       - name: Publish Artifacts
         uses: actions/upload-artifact@v3
         with:
