@@ -20,13 +20,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import venomhack.mixinInterface.ISpoofName;
+import com.monkas.addon.mixinInterface.ISpoofName;
 
 @Mixin(
    value = {Module.class},
    remap = false
 )
-public abstract class ModuleMixin implements IBlink, ISpoofName {
+public abstract class ModuleMixin implements ISpoofName {
    @Shadow
    @Final
    public String title;
