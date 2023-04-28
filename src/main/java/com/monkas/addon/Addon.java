@@ -2,7 +2,7 @@ package com.monkas.addon;
 
 import com.monkas.addon.commands.CommandExample;
 import com.monkas.addon.hud.HudExample;
-import com.monkas.addon.modules.ModuleExample;
+import com.monkas.addon.modules.PistonAura;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.commands.Commands;
@@ -11,6 +11,7 @@ import meteordevelopment.meteorclient.systems.hud.HudGroup;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
+import com.monkas.addon.utils.DamageCalcUtils;
 
 public class Addon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
@@ -20,9 +21,10 @@ public class Addon extends MeteorAddon {
     @Override
     public void onInitialize() {
         LOG.info("Initializing Meteor Monkas Addon");
+        DamageCalcUtils.init();
 
         // Modules
-        Modules.get().add(new ModuleExample());
+        Modules.get().add(new PistonAura());
 
         // Commands
         Commands.get().add(new CommandExample());
