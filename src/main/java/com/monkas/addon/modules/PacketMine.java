@@ -1,4 +1,4 @@
-package venomhack.modules.misc;
+package com.monkas.addon.modules;
 
 import meteordevelopment.meteorclient.events.entity.player.StartBreakingBlockEvent;
 import meteordevelopment.meteorclient.events.packets.PacketEvent.Send;
@@ -32,12 +32,12 @@ import net.minecraft.tag.FluidTags;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.client.network.PlayerListEntry;
 import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket.class_2847;
-import venomhack.Venomhack420;
-import venomhack.enums.Origin;
-import venomhack.modules.ModuleHelper;
-import venomhack.utils.BlockUtils2;
-import venomhack.utils.ColorUtils;
-import venomhack.utils.RandUtils;
+import com.monkas.addon.Venomhack420;
+import com.monkas.addon.enums.Origin;
+import com.monkas.addon.modules.ModuleHelper;
+import com.monkas.addon.utils.BlockUtils2;
+import com.monkas.addon.utils.ColorUtils;
+import com.monkas.addon.utils.RandUtils;
 
 public class PacketMine extends ModuleHelper {
    private final Setting<Boolean> strict = this.setting("strict", "For test 2b. might be buggy.", Boolean.valueOf(false));

@@ -1,4 +1,4 @@
-package venomhack.enums;
+package com.monkas.addon.enums;
 
 import meteordevelopment.meteorclient.MeteorClient;
 import net.minecraft.util.math.Vec3d;

@@ -1,4 +1,4 @@
-package venomhack.modules;
+package com.monkas.addon.modules;
 
 import it.unimi.dsi.fastutil.objects.Object2BooleanMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
@@ -41,7 +41,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.text.Text;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.MutableText;
-import venomhack.mixinInterface.ISpoofName;
+import com.monkas.addon.mixinInterface.ISpoofName;
 
 public class ModuleHelper extends Module {
    protected final SettingGroup sgGeneral = this.settings.getDefaultGroup();

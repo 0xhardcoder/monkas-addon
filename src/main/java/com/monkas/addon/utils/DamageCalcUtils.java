@@ -1,4 +1,4 @@
-package venomhack.utils;
+package com.monkas.addon.utils;
 
 import meteordevelopment.meteorclient.MeteorClient;
 import meteordevelopment.meteorclient.events.game.GameJoinedEvent;
@@ -31,8 +31,8 @@ import net.minecraft.world.explosion.Explosion.class_4179;
 import net.minecraft.util.hit.HitResult.class_240;
 import net.minecraft.world.RaycastContext.class_242;
 import net.minecraft.world.RaycastContext.class_3960;
-import venomhack.mixinInterface.IVec3d;
-import venomhack.modules.misc.PacketMine;
+import com.monkas.addon.mixinInterface.IVec3d;
+import com.monkas.addon.modules.misc.PacketMine;
 
 public class DamageCalcUtils {
    public static Explosion explosion;

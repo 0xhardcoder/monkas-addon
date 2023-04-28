@@ -1,4 +1,4 @@
-package venomhack.modules.combat;
+package com.monkas.addon.modules;
 
 import java.util.Comparator;
 import java.util.List;
@@ -47,11 +47,11 @@ import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
 import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
 import net.minecraft.util.math.Direction.class_2353;
 import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket.class_2847;
-import venomhack.Venomhack420;
-import venomhack.enums.Origin;
-import venomhack.modules.ModuleHelper;
-import venomhack.utils.BlockUtils2;
-import venomhack.utils.DamageCalcUtils;
+import com.monkas.addon.Addon;
+import com.monkas.addon.monkas.addon.enums.Origin;
+import com.monkas.addon.modules.ModuleHelper;
+import com.monkas.addon.utils.BlockUtils2;
+import com.monkas.addon.utils.DamageCalcUtils;
 
 public class PistonAura extends ModuleHelper {
    private final SettingGroup sgToggles = this.settings.createGroup("Toggles");

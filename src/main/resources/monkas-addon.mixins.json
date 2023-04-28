@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.monkas.addon.mixin",
   "compatibilityLevel": "JAVA_17",
-  "client": [],
+  "client": [
+    "Vec3dMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
