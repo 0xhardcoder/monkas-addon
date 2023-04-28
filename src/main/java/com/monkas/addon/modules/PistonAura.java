@@ -48,7 +48,7 @@ import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
 import net.minecraft.util.math.Direction.class_2353;
 import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket.class_2847;
 import com.monkas.addon.Addon;
-import com.monkas.addon.monkas.addon.enums.Origin;
+import com.monkas.addon.enums.Origin;
 import com.monkas.addon.modules.ModuleHelper;
 import com.monkas.addon.utils.BlockUtils2;
 import com.monkas.addon.utils.DamageCalcUtils;
