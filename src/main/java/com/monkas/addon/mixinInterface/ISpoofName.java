@@ -1,4 +1,4 @@
-package monkas.addon.mixinInterface;
+package com.monkas.addon.mixinInterface;
 
 public interface ISpoofName {
    String getSpoofName();
